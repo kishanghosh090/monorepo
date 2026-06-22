@@ -1,0 +1,11 @@
+{
+  "name": "python-api",
+  "version": "1.0.0",
+  "scripts": {
+     "dev": "./venv/bin/uvicorn src.main:app --reload --port 8000",
+    "test": "pytest",
+    "lint": "flake8 .",
+    "build": "echo 'No compilation needed for Python, or run docker build'"
+  }
+}
+
